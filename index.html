@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Крестики-нолики</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Press+Start+2P&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+  <div class="inner">
+    <div class="block_hystory">
+      <div class="hystory">История игр: </div>
+      <div class="hystiory_play"></div>
+    </div>
+    <div class="border"></div>
+    <div class="block_game">
+      <div class="round">
+        <p>Раунд <span>1</span></p>
+      </div>
+      <div class="score">
+        <p>Компьютер</p> <span class="score_computer">0</span> - <span class="score_user">0</span>
+        <p> Игрок</p>
+      </div>
+      <div class="container">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+      </div>
+    </div>
+  </div>
+  <div class="win"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

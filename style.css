@@ -1,0 +1,123 @@
+html, body, p, span {
+  padding: 0;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p, span {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.inner {
+  display: flex;
+  width: 924px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.block_hystory {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 450px;
+  margin: 60px auto 0 auto;
+  border: 1px solid;
+  border-color: #2d1919;
+}
+
+.square {
+  display: flex;
+  width: 148px;
+  height: 148px;
+  border: 1px solid;
+  border-color: #2d1919;
+  cursor: pointer;
+  font-size: 100px;
+  justify-content: center;
+  line-height: 120px;
+}
+
+.noname {
+  display: flex;
+  width: 148px;
+  height: 148px;
+  border: 1px solid;
+  border-color: #2d1919;
+  cursor: pointer;
+  font-size: 100px;
+  justify-content: center;
+  line-height: 120px;
+}
+
+.win {
+  display: none;
+  margin: -330px auto;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+.block_game {
+  display: flex;
+  width: 452px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.round {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.score {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.hystory {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.border {
+  width: 2px;
+  margin: 0 10px;
+  background-color: black;
+}
+
+.hystiory_play {
+  margin-top: 10px;
+  line-height: 25px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@media (max-width: 825px) {
+  .inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .border {
+    margin: 10px 0;
+    width: 100%;
+    height: 2px;
+  }
+
+  .block_game {
+    margin: 0 auto;
+  }
+}
